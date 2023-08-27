@@ -9,9 +9,11 @@ public class CustomerModule {
 	{
 		Reporter.log("create customer",true);
 	}
+	@Test
 	public void deleteCustomer()
 	{
 		Reporter.log("delete customer",true);
 	}
+	
 
 }
